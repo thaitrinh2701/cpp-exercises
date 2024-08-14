@@ -3,11 +3,12 @@
 #include <iostream>
 #include <algorithm>
 #include <iomanip>
+#include <math.h>
 
 using namespace std;
 
 int main(){
-	int n; cin >> n;
-	cout << n << endl << "Hello World !" << endl << "C++ programming !";
+	int x, y; cin >> x >> y;
+	double hamF = 5 * x + 2 * y + x * y;
+	cout << hamF;
 }
-

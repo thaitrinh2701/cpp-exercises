@@ -3,11 +3,11 @@
 #include <iostream>
 #include <algorithm>
 #include <iomanip>
+#include <math.h>
 
 using namespace std;
 
 int main(){
-	int n; cin >> n;
-	cout << n << endl << "Hello World !" << endl << "C++ programming !";
+	long long n; cin >> n;
+	cout << n / 1000;
 }
-
